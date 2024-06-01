@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="whywebest.css">
+    <style>
+        
+.img-fluid.rounded {
+  border-radius: 5px;
+}
+
+
+.card.border {
+  border: 1px solid #ddd;
+}
+.card {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: #f0f0f0;
+        }
+
+        .nonSelected{
+            background: #F6F6F6 0% 0% no-repeat padding-box;
+
+        }
+        .selected {
+            background-color: #FF3147 !important;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container text-center my-5">
+        <h5 class="text-danger">WHY CHOOSE US</h5>
+        <h2 class="font-weight-bold">WHY WE ARE BEST</h2>
+        <div class="row my-4">
+            <div class="col-md-3 col-sm-6 my-3">
+                <div class="feature-box">
+                    <div class="icon mb-3">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=eefe5b19-0560-4fae-aa28-31113b17127f&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935" alt="Clarified Vision & Target">
+                    </div>
+                    <h5>Clarified Vision & Target</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <div class="feature-box">
+                    <div class="icon mb-3">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=f9447614-e58c-4ba2-bec0-f4d97c5a015f&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935" alt="High Performance">
+                    </div>
+                    <h5>High Performance</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <div class="feature-box">
+                    <div class="icon mb-3">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=c8b3ff1b-a7de-4884-a499-21ffbcc404ab&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935" alt="Maintain Security">
+                    </div>
+                    <h5>Maintain Security</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <div class="feature-box">
+                    <div class="icon mb-3">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=fb435e28-7c80-4047-bc41-e30a9005125d&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935" alt="Better Strategy & Quality">
+                    </div>
+                    <h5>Better Strategy & Quality</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+        <h5 class="text-danger">OUR PROJECT</h5>
+        <h2 class="font-weight-bold">WHY WE ARE BEST</h2>
+        <section id="services">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3">
+                    <img id="feature-image" src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=2719ca30-70a5-4501-b09b-b89f311ee379&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935" class="img-fluid rounded" alt="Image Description">
+                </div>
+                <div class="col-md-6">
+                    <div class="card nonSelected border mb-3 bg-pink" data-img-src="https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=600">
+                        <div class="card-body">
+                            <h5 class="card-title">Genderless Kei – Japan’s Hot</h5>
+                            <p class="card-text">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                        </div>
+                    </div>
+                    <div class="card nonSelected border mb-3" data-img-src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=2719ca30-70a5-4501-b09b-b89f311ee379&api_key=CometServer1&access_token=1717261090_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_6110eaab2e97bec7cbcc30ad6984f763a2e6a935">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Better Strategy & Quality</h5>
+                            <p class="card-text">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                        </div>
+                    </div>
+
+                    <div class="card nonSelected border mb-3" data-img-src="https://blog.pixmn.com/wp-content/uploads/2024/03/16.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Genderless Kei – Japan’s Hot</h5>
+                            <p class="card-text">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            $('.card').click(function() {
+
+                $('.card').removeClass('selected');
+                
+                
+                $(this).addClass('selected');
+                
+                
+                var imgSrc = $(this).data('img-src');
+                $('#feature-image').attr('src', imgSrc);
+            });
+
+            
+            $('.card').hover(
+                function() {
+                    if (!$(this).hasClass('selected')) {
+                        $(this).css('background-color', '#f0f0f0');
+                    }
+                },
+                function() {
+                    if (!$(this).hasClass('selected')) {
+                        $(this).css('background-color', 'white');
+                    }
+                }
+            );
+        });
+    </script>
+
+</html>

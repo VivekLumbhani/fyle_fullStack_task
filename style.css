@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.service-title {
+    color: #ff3c41;
+}
+
+.service-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.service-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #ff3c41;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e32b2f;
+}
